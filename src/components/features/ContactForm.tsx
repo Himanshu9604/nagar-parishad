@@ -18,15 +18,15 @@ export function ContactForm() {
 
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const body = [
-      `Name: ${form.name}`,
-      `Mobile: ${form.phone}`,
-      form.ward && `Ward: ${form.ward}`,
-      "",
-      form.message,
-    ]
-      .filter((x) => x !== false)
-      .join("\n");
+   const body = [
+  `Name: ${form.name}`,
+  `Mobile: ${form.phone}`,
+  form.ward ? `Ward: ${form.ward}` : "",
+  "",
+  form.message,
+]
+  .filter(Boolean)
+  .join("\n");
     const href = `mailto:${siteConfig.email}?subject=${encodeURIComponent(form.subject || "Citizen query")}&body=${encodeURIComponent(body)}`;
     window.location.href = href;
   };
