@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Nagar Parishad Garden">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a4686"/>
+      <stop offset="1" stop-color="#dcfce7"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5ebcc"/><stop offset=".5" stop-color="#d4a93f"/><stop offset="1" stop-color="#a47522"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ffffff" opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#dots)"/>
+  <circle cx="1280" cy="230" r="90" fill="#ead597" opacity=".85"/>
+  <circle cx="1280" cy="230" r="140" fill="#ead597" opacity=".12"/>
+  <path d="M0 760 Q400 700 800 740 T1600 720 V1000 H0z" fill="#166534"/>
+  
+  <ellipse cx="800" cy="850" rx="520" ry="70" fill="#15803d"/>
+  <circle cx="800" cy="700" r="80" fill="#86a1d4" opacity=".7"/>
+  <rect x="790" y="600" width="20" height="100" fill="#d8e2f3"/>
+  <circle cx="800" cy="590" r="20" fill="#d8e2f3"/>
+  <g><rect x="150" y="560" width="20" height="200" fill="#6c4820"/><circle cx="160" cy="520" r="80" fill="#15803d"/><rect x="450" y="560" width="20" height="200" fill="#6c4820"/><circle cx="460" cy="520" r="80" fill="#15803d"/><rect x="1050" y="560" width="20" height="200" fill="#6c4820"/><circle cx="1060" cy="520" r="80" fill="#15803d"/><rect x="1350" y="560" width="20" height="200" fill="#6c4820"/><circle cx="1360" cy="520" r="80" fill="#15803d"/></g>
+  <g fill="#f472b6"><circle cx="400" cy="820" r="10"/><circle cx="470" cy="830" r="10"/><circle cx="540" cy="840" r="10"/><circle cx="610" cy="820" r="10"/><circle cx="680" cy="830" r="10"/><circle cx="750" cy="840" r="10"/><circle cx="820" cy="820" r="10"/><circle cx="890" cy="830" r="10"/><circle cx="960" cy="840" r="10"/><circle cx="1030" cy="820" r="10"/><circle cx="1100" cy="830" r="10"/><circle cx="1170" cy="840" r="10"/></g>
+  <rect x="0" y="940" width="1600" height="60" fill="#09132a" opacity=".55"/>
+  <text x="60" y="980" font-family="Georgia, serif" font-size="30" fill="#f5ebcc" letter-spacing="2">NAGAR PARISHAD GARDEN</text>
+  <text x="1540" y="980" text-anchor="end" font-family="Georgia, serif" font-size="22" fill="#ead597" opacity=".8">Nagar Parishad Dhamangaon Rly.</text>
+</svg>

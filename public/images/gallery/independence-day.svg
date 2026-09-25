@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Independence Day Celebration">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b5ca3"/>
+      <stop offset="1" stop-color="#f5ebcc"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5ebcc"/><stop offset=".5" stop-color="#d4a93f"/><stop offset="1" stop-color="#a47522"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ffffff" opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#dots)"/>
+  <circle cx="1280" cy="230" r="90" fill="#ead597" opacity=".85"/>
+  <circle cx="1280" cy="230" r="140" fill="#ead597" opacity=".12"/>
+  <path d="M0 760 Q400 700 800 740 T1600 720 V1000 H0z" fill="#2a4686"/>
+  
+  <rect x="790" y="260" width="14" height="520" fill="#d8e2f3"/>
+  <g transform="translate(804 270)">
+    <rect width="300" height="66" fill="#e8871e"/>
+    <rect y="66" width="300" height="66" fill="#ffffff"/>
+    <rect y="132" width="300" height="66" fill="#138808"/>
+    <circle cx="150" cy="99" r="26" fill="none" stroke="#000080" stroke-width="4"/>
+  </g>
+  <g fill="#0f1d3d"><circle cx="250" cy="760" r="30"/><rect x="228" y="785" width="44" height="120" rx="18"/><circle cx="360" cy="760" r="30"/><rect x="338" y="785" width="44" height="120" rx="18"/><circle cx="470" cy="760" r="30"/><rect x="448" y="785" width="44" height="120" rx="18"/><circle cx="580" cy="760" r="30"/><rect x="558" y="785" width="44" height="120" rx="18"/><circle cx="690" cy="760" r="30"/><rect x="668" y="785" width="44" height="120" rx="18"/><circle cx="800" cy="760" r="30"/><rect x="778" y="785" width="44" height="120" rx="18"/><circle cx="910" cy="760" r="30"/><rect x="888" y="785" width="44" height="120" rx="18"/><circle cx="1020" cy="760" r="30"/><rect x="998" y="785" width="44" height="120" rx="18"/><circle cx="1130" cy="760" r="30"/><rect x="1108" y="785" width="44" height="120" rx="18"/><circle cx="1240" cy="760" r="30"/><rect x="1218" y="785" width="44" height="120" rx="18"/><circle cx="1350" cy="760" r="30"/><rect x="1328" y="785" width="44" height="120" rx="18"/></g>
+  <rect x="0" y="940" width="1600" height="60" fill="#09132a" opacity=".55"/>
+  <text x="60" y="980" font-family="Georgia, serif" font-size="30" fill="#f5ebcc" letter-spacing="2">INDEPENDENCE DAY CELEBRATION</text>
+  <text x="1540" y="980" text-anchor="end" font-family="Georgia, serif" font-size="22" fill="#ead597" opacity=".8">Nagar Parishad Dhamangaon Rly.</text>
+</svg>

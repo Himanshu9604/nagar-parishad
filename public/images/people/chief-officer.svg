@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Chief Officer photograph placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#20376d"/><stop offset="1" stop-color="#09132a"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5ebcc"/><stop offset=".5" stop-color="#d4a93f"/><stop offset="1" stop-color="#a47522"/></linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <circle cx="200" cy="160" r="72" fill="#3b5ca3"/>
+  <path d="M60 400 c0 -110 60 -150 140 -150 s140 40 140 150z" fill="#3b5ca3"/>
+  <path d="M160 260 l40 60 l40 -60" fill="none" stroke="url(#gold)" stroke-width="8" stroke-linejoin="round"/>
+  <text x="200" y="178" text-anchor="middle" font-family="Georgia, serif" font-size="54" fill="#ead597">CO</text>
+</svg>

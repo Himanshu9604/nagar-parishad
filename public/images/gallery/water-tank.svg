@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Elevated Water Reservoir">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#bae6fd"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5ebcc"/><stop offset=".5" stop-color="#d4a93f"/><stop offset="1" stop-color="#a47522"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ffffff" opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#dots)"/>
+  <circle cx="1280" cy="230" r="90" fill="#ead597" opacity=".85"/>
+  <circle cx="1280" cy="230" r="140" fill="#ead597" opacity=".12"/>
+  <path d="M0 760 Q400 700 800 740 T1600 720 V1000 H0z" fill="#1e3a8a"/>
+  
+  <ellipse cx="800" cy="330" rx="230" ry="40" fill="#20376d"/>
+  <rect x="570" y="330" width="460" height="170" fill="#0f1d3d"/>
+  <ellipse cx="800" cy="500" rx="230" ry="40" fill="#0f1d3d"/>
+  <text x="800" y="440" text-anchor="middle" font-family="Georgia, serif" font-size="44" fill="#ead597">जलकुंभ</text>
+  <g fill="#0f1d3d">
+    <path d="M620 520 L560 800 h30 L650 520z"/><path d="M980 520 L1040 800 h-30 L950 520z"/>
+    <rect x="780" y="520" width="40" height="280"/>
+    <rect x="600" y="640" width="400" height="14"/>
+  </g>
+  <rect x="0" y="940" width="1600" height="60" fill="#09132a" opacity=".55"/>
+  <text x="60" y="980" font-family="Georgia, serif" font-size="30" fill="#f5ebcc" letter-spacing="2">ELEVATED WATER RESERVOIR</text>
+  <text x="1540" y="980" text-anchor="end" font-family="Georgia, serif" font-size="22" fill="#ead597" opacity=".8">Nagar Parishad Dhamangaon Rly.</text>
+</svg>

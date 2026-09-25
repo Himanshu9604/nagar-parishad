@@ -1,0 +1,69 @@
+Build a complete **Nagar Parishad Dhamangaon Railway official website from scratch using ONLY Next.js, TypeScript, and Tailwind CSS.**
+
+**STRICT:** No Node.js backend, no Express.js, no MongoDB, no database, no authentication system, no external backend. This must be a **frontend-only static Next.js website**.
+
+### UI/UX
+
+Create a premium, classic **royal government-style UI** with elegant navy/blue, ivory and subtle gold accents, professional Indian-friendly fonts, beautiful typography, glass/premium cards, subtle Framer Motion animations, smooth hover effects and excellent spacing.
+
+Make it **100% responsive** for mobile, tablet and desktop.
+
+### Pages & Features
+
+* Premium Home page
+* About Nagar Parishad
+* President/Chief Officer section
+* Elected Ward Members
+* Departments
+* Citizen Services
+* Birth & Death Certificate information
+* Property Tax
+* Water Supply / Water Bill information
+* Complaints & Grievance information
+* Government Schemes
+* Tenders
+* Notices & Announcements
+* Circulars
+* Download Forms
+* Important Government Links
+* Contact Us
+* Gallery
+* Emergency/Important Contacts
+* Search functionality
+* Marathi / Hindi / English language-ready structure
+* PDF/document download cards
+* Notice and document categories
+* Breadcrumbs
+* Sitemap and SEO metadata
+
+### Static Data Management
+
+Since there is **NO DATABASE**, keep all editable website content inside clean local TypeScript/JSON data files.
+
+Store PDFs, images and documents inside the project's `/public` folder and provide proper download/open functionality.
+
+Create reusable components so notices, ward members, documents, services and departments can easily be updated by editing the data files.
+
+### Technical Requirements
+
+* Next.js App Router
+* TypeScript
+* Tailwind CSS
+* Framer Motion
+* Reusable components
+* Clean folder structure
+* SEO optimized
+* Fast loading
+* Accessible UI
+* Responsive navigation
+* Mobile menu
+* Proper loading/error/404 states
+* Optimized images
+* No unnecessary dependencies
+* No fake API calls
+* No backend
+* No database
+
+First create the complete project architecture, then implement all pages and components with polished production-quality UI.
+
+**Goal:** Make it look like a premium, trustworthy, modern Maharashtra government/Nagar Parishad website rather than a generic template. Keep the design elegant, classic, royal and professional—not flashy or overly colorful.

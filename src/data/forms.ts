@@ -1,0 +1,103 @@
+import type { DocumentItem } from "@/types";
+
+/**
+ * Downloadable application forms. PDFs live in /public/documents/forms/.
+ */
+export const forms: DocumentItem[] = [
+  {
+    id: "f-birth",
+    title: { en: "Birth Registration Form (Form No. 1)", mr: "जन्म नोंदणी अर्ज (नमुना क्र. १)", hi: "जन्म पंजीकरण फ़ॉर्म (फ़ॉर्म सं. 1)" },
+    category: "certificate",
+    date: "2026-01-01",
+    file: "/documents/forms/birth-registration-form.pdf",
+    fileSize: "1 page",
+  },
+  {
+    id: "f-death",
+    title: { en: "Death Registration Form (Form No. 2)", mr: "मृत्यू नोंदणी अर्ज (नमुना क्र. २)", hi: "मृत्यु पंजीकरण फ़ॉर्म (फ़ॉर्म सं. 2)" },
+    category: "certificate",
+    date: "2026-01-01",
+    file: "/documents/forms/death-registration-form.pdf",
+    fileSize: "1 page",
+  },
+  {
+    id: "f-cert-copy",
+    title: { en: "Application for Birth / Death Certificate Copy", mr: "जन्म / मृत्यू प्रमाणपत्र प्रतीसाठी अर्ज", hi: "जन्म / मृत्यु प्रमाणपत्र प्रति हेतु आवेदन" },
+    category: "certificate",
+    date: "2026-01-01",
+    file: "/documents/forms/certificate-copy-application.pdf",
+    fileSize: "1 page",
+  },
+  {
+    id: "f-water",
+    title: { en: "New Water Tap Connection Application", mr: "नवीन नळ जोडणी अर्ज", hi: "नया नल कनेक्शन आवेदन" },
+    category: "water",
+    date: "2026-01-01",
+    file: "/documents/forms/new-water-connection.pdf",
+    fileSize: "2 pages",
+  },
+  {
+    id: "f-mutation",
+    title: { en: "Property Mutation / Name Transfer Application", mr: "मालमत्ता फेरफार / नाव बदल अर्ज", hi: "संपत्ति नामांतरण आवेदन" },
+    category: "tax",
+    date: "2026-01-01",
+    file: "/documents/forms/property-mutation.pdf",
+    fileSize: "2 pages",
+  },
+  {
+    id: "f-assessment",
+    title: { en: "Property Tax Assessment Objection Form", mr: "मालमत्ता कर आकारणी हरकत अर्ज", hi: "संपत्ति कर निर्धारण आपत्ति फ़ॉर्म" },
+    category: "tax",
+    date: "2026-01-01",
+    file: "/documents/forms/assessment-objection.pdf",
+    fileSize: "1 page",
+  },
+  {
+    id: "f-no-dues",
+    title: { en: "No-Dues Certificate Application", mr: "थकबाकी नसल्याचा दाखला अर्ज", hi: "बकाया नहीं प्रमाणपत्र आवेदन" },
+    category: "tax",
+    date: "2026-01-01",
+    file: "/documents/forms/no-dues-certificate.pdf",
+    fileSize: "1 page",
+  },
+  {
+    id: "f-trade",
+    title: { en: "Trade Licence – New / Renewal", mr: "व्यवसाय परवाना – नवीन / नूतनीकरण", hi: "व्यापार लाइसेंस – नया / नवीनीकरण" },
+    category: "license",
+    date: "2026-01-01",
+    file: "/documents/forms/trade-licence.pdf",
+    fileSize: "2 pages",
+  },
+  {
+    id: "f-building",
+    title: { en: "Building Permission Application", mr: "बांधकाम परवानगी अर्ज", hi: "भवन अनुमति आवेदन" },
+    category: "planning",
+    date: "2026-01-01",
+    file: "/documents/forms/building-permission.pdf",
+    fileSize: "3 pages",
+  },
+  {
+    id: "f-marriage",
+    title: { en: "Marriage Registration Memorandum", mr: "विवाह नोंदणी ज्ञापन", hi: "विवाह पंजीकरण ज्ञापन" },
+    category: "certificate",
+    date: "2026-01-01",
+    file: "/documents/forms/marriage-registration.pdf",
+    fileSize: "2 pages",
+  },
+  {
+    id: "f-rti",
+    title: { en: "RTI Application (Form A)", mr: "माहितीचा अधिकार अर्ज (नमुना अ)", hi: "सूचना का अधिकार आवेदन (फ़ॉर्म अ)" },
+    category: "general",
+    date: "2026-01-01",
+    file: "/documents/forms/rti-application.pdf",
+    fileSize: "1 page",
+  },
+  {
+    id: "f-grievance",
+    title: { en: "Citizen Grievance Form", mr: "नागरिक तक्रार अर्ज", hi: "नागरिक शिकायत फ़ॉर्म" },
+    category: "general",
+    date: "2026-01-01",
+    file: "/documents/forms/grievance-form.pdf",
+    fileSize: "1 page",
+  },
+];
